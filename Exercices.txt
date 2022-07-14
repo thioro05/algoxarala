@@ -1,0 +1,92 @@
+Exercice 2
+Variables: 
+	nombres: entiers
+Debut
+nombre <- 0
+Ecrire "un nombre compris entre 10 et 20 "
+Tant que nombre <10 ou nombre >20 
+	Lire nombre
+	Si nombre> 20
+		Ecrire "Plus petit"
+	SinonSi nombre <10
+		Ecrire "Plus grand"
+	FinSi
+
+FinTantque
+Fin
+
+******************
+
+Exercice 3
+Variables: 
+nombres , nombressup: entiers 
+debut:
+nombres <- 0
+Ecrire " ecrivez un nombre"
+lire nombre
+nombressup <- nombre + 10
+
+Tantque nombre< nombresup
+	nombre <- nombre + 1
+	Ecrire "Parmis ces 10 nombres on a "+ nombre
+	
+Fintantque
+Fin
+
+Exercice 5
+Variable nbr, i
+Debut
+Ecrire " ecrire un nombre"
+i<- 1
+Pour  i allant de 1 à 10
+Ecrire nbr*i
+FinPour
+****************
+
+Exercice 6
+Variable nbre, somme,i
+Debut 
+ecrire " Entrer un nombre"
+lire nbre
+i <- 1
+somme <- 0
+Pour i allant de 1 à nbr
+lire somme = somme +1
+i<- i+1
+FinPour
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
